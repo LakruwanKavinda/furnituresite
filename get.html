@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="get.css">
+    
+   
+
+</head>
+<body>
+    
+    <header>
+        <div id="subject">
+            <h2>FILL & ORDER</h2>
+        </div>
+    </header>
+    <main>
+        <div id="introduce">
+            <h3>You can order, what you need to draw. Please send a photo, what you need convait to a art.</h3>
+        </div>
+        <div id="form">
+            <form action="eg01.html" method="GET" name="stud_form" onsubmit="return validate()">
+                <div id="fisName">
+                    01. First Name : <input placeholder="input your first name" type="text" name="fname"> <br><br>
+                </div>
+                <div id="lastName">
+                    02. Last Name : <input placeholder="input your last name" type="text" name="lname"> <br><br>
+                </div>
+                <div id="name">
+                    03. Name With Initials : <input placeholder="input your name with initials" type="text" name="nameinitials">  <br><br>
+                </div>
+                <div id="adrress">
+                    04. Adrress : <input placeholder="input your home number of adrress" type="text" name="line1"> <br><br> 
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                  <input placeholder="input your city" type="text" name="line2"> <br><br>
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                  <input placeholder="input your district and country" type="text" name="line3"> <br><br>
+                                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                  <input placeholder="enter the postal code" type="text" name="line4"> <br><br>
+                </div>
+                <div id="pnNo">
+                    05. Mobile Number : <input placeholder="enter a valid 10 digit no" type="text" name="pnNum" pattern="[0-9]{10}"> <br><br>
+                </div>
+                <div id="e_mail">
+                    06. E-mail : <input placeholder="enter a valid email adrress" type="email" name="email"> <br><br>
+                </div>
+                <div id="order">
+                    07. type of order : <select name="wich_type1">
+                                            <option value="value01">choose what you need</option>
+                                            <option value="value02">pencil portrait</option>
+                                            <option value="value03">color pencil portrait</option>
+                                            <option value="value04">acrylic paint(landscape)</option>
+                                            <option value="value05">leaf cut art</option>
+                                        </select>  <br><br>
+                </div>
+                <div id="whom">
+                    08. Choose Your Artist : <select name="wich_type2">
+                        <option value="value01">ARTIST 01</option>
+                        <option value="value02">ARTIST 02</option>
+                    </select>  <br><br>
+                </div>
+                <div id="payment">
+                    09. Choose Your Payment Method : online(visa card)<input type="radio" name="one" value="ATM"> &nbsp&nbsp
+                                                     cash on delivery<input type="radio" name="one" value="cash on delivery"> &nbsp&nbsp
+                                                     To Bank<input type="radio" name="one" value="bank">
+                </div><br>
+                <div id="photo">
+                    10. Uplod a clear Picture : <input id="file" type="file" name="field_name">
+                </div><br><br>
+                <div id="reset">
+                    Reset the inputs(if you need)<br>
+                    <input id="rst" type="reset" name="reset" value="reset"/>
+                </div>
+                <div id="submit">
+                    Go to pay and submit<br>
+                    <button id="sub1"><a href="file:///E:/campus%20lectures/sem%201/IS1106-foundations%20of%20web%20technologies/website%20assignment%20end%20semester/2/20APC4585/last.html">submit</a></button>
+                </div> <br><br>
+                
+            </form>
+        </div>
+    </main>
+    <footer>
+        ART CAFE <br>
+        Account Number : xxxxxxxxxx   <br>
+        Bank : Central bank     <br>
+        Branch : Mahiyanganaya     <br>
+        ***
+    </footer>
+    
+    
+
+</body>
+</html>
